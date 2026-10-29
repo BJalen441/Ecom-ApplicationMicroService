@@ -1,0 +1,28 @@
+#spring.application.name=ecom-application
+#spring.datasource.url=jdbc:h2:mem:ecomdb
+#spring.datasource.driverClassName=org.h2.Driver
+#spring.datasource.username=sa
+#spring.datasource.password=
+
+#spring.datasource.url=jdbc:postgresql://localhost:5432/ecomdb
+#spring.datasource.username=postgres
+#spring.datasource.password=<7438>
+
+#spring.jpa.hibernate.ddl-auto=update
+#spring.h2.console.enabled=true
+
+spring:
+  application:
+    name: ecom-application
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ecomdb
+    username: postgres
+    password: DB7438
+#    DB7438
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
